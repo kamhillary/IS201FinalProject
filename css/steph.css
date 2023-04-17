@@ -1,0 +1,86 @@
+p {
+    font-weight: bold;
+}
+
+#top {
+    font-weight: bold;
+}
+
+body {
+    background-color: rgb(30, 40, 52);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    text-align: center;
+    padding: 10px;
+    border: 5px solid white;
+    margin: 20px;
+    color: white;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+ol {
+    list-style-position: inside;
+}
+
+p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.common {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header {
+    height: 100px;
+    background-color: rgb(192, 195, 67);
+    color: black;
+}
+
+.mainbody {
+    background-color: rgb(30, 40, 52);
+    right: 5px;
+    left: 5px;
+}
+
+.footer {
+    height: 25px;
+    font-size: 10px;
+    padding-top: 15px;
+    background-color: rgb(192, 195, 67);
+    color: white;
+    bottom: 0px;
+    right: 5px;
+    left: 5px;
+    position: fixed;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+nav {
+    background-color: lightgray;
+    padding: 10px;
+    overflow: hidden;
+}
+
+nav a:hover {
+    background-color: #ccc;
+}
+
+nav a {
+    float: left;
+    color: #333;
+    padding: 10px 13px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
